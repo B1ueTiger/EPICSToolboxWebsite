@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			h1
+			{
+				text-align: center;
+				outline: 1px solid black;
+			}
+
+			.button
+			{
+				padding: 30px 35px;
+				font-size: 24px;
+				text-align: center;
+				cursor: pointer;
+				outline: none;
+				color: #fff;
+				background-color: #c41d1d;
+				border: none;
+				border-radius: 15px;
+				box-shadow: 0 7px #999
+			}
+
+			.button:hover {background-color: #c41d1d}
+			.button:active
+			{
+				background-color: #a11a1a;
+				box-shadow: 0 3px #666;
+				transform: translateY (4px);
+			}
+		</style>
+	</head>
+	<body>
+		<h1 style="color:white; background-color:#cc0000;"> EPICS Speedway Museum Exhibit </h1>
+		<font size=3 color=black>
+		<!a href="fuel.html"> <button class="button"> Fuel </button> </a> &nbsp &nbsp &nbsp
+		<a href="timeline.html"> <button class="button"> Timeline </button> </a> &nbsp &nbsp &nbsp
+		<a href="materials.html"> <button class="button"> Materials </button> </a> &nbsp &nbsp &nbsp
+	</body>
+<html>
