@@ -8,16 +8,18 @@
 				font-family: Optima, monospace;
 			}
 			h2 {
-				font-size: 40px; 
+				font-size: 50px;
 				text-align: center;
 				font-family: Optima, sans-serif;
+				position:absolute;
+				left:43.2%;
+				top:13%;
 			}
-			.button
+			.bbutton
 			{
-				padding: 30px 35px;
-				font-size: 24px;
+				padding: 30px 60px;
+				font-size: 30px;
 				text-align: center;
-				font-family: Optima, sans-serif;
 				cursor: pointer;
 				outline: none;
 				color: #fff;
@@ -25,7 +27,43 @@
 				border: none;
 				border-radius: 15px;
 				box-shadow: 0 7px #999;
-				text-decoration: none;
+				position:absolute;
+				left:35%;
+				top:75%;
+
+			}
+
+			.bbutton:hover {background-color: #c41d1d}
+			.bbutton:active
+			{
+				background-color: #a11a1a;
+				box-shadow: 0 3px #666;
+				transform: translateY (4px);
+			}
+			.hbutton
+			{
+				padding: 30px 60px;
+				font-size: 30px;
+				text-align: center;
+				cursor: pointer;
+				outline: none;
+				color: #fff;
+				background-color: #c41d1d;
+				border: none;
+				border-radius: 15px;
+				box-shadow: 0 7px #999;
+				position:absolute;
+				left:50%;
+				top:75%;
+
+			}
+
+			.hbutton:hover {background-color: #c41d1d}
+			.hbutton:active
+			{
+				background-color: #a11a1a;
+				box-shadow: 0 3px #666;
+				transform: translateY (4px);
 			}
 			.buttonsmall
 			{
@@ -43,23 +81,36 @@
 				text-decoration: none;
 			}
 			.IMSM {
-				width: 350px;
+				width: 350px
+			}
+			.fiberglass {
+				position:absolute;
+				top:40%;
+				left:12%;
+				height: 250px;
 			}
 			.EPICS {
 				width: 200px;
 			}
 			.Info {
 				margin-left: 500px;
-				margin-right: 500px;
+				margin-right: 490px;
 				font-family: Optima, sans-serif;
-				font-size: 24px;
+				font-size: 30px;
 				text-align: center;
+				position:absolute;
+				top:40%;
+				left:21%;
 			}
 			.Source {
 				text-align: center;
 				font-family: Optima, sans-serif;
 				font-size: 16px;
 				text-decoration: underline;
+				text-align: center;
+				position:absolute;
+				top:89%;
+				left:28%;
 			}
 			.button:hover {background-color: #c41d1d}
 			.button:active
@@ -91,29 +142,32 @@
 				<img class="EPICS" src="EPICS.png" alt="EPICS">
 			</div>
 		<br> </h1> <br>
-	
+
 	<!-- Speedway Logo Picture -->
 		<img class="IMSM" src="IMSM_logo.png" alt="Indianapolis Motor Speedway">
-		
+		<img class="fiberglass" src="fiberglass.webp" alt="Indianapolis Motor Speedway">
+
 		<h2> Fiberglass </h2>
 
 	<!-- Information Displayed -->
-		<p class="Info"> 
+		<p class="Info">
 			Fiberglass, specifically fiberglass epoxy resin, is used in racing for flexibility and strength without much additional weight. Its unique formula of layers makes it so it will only crack at a single point and not split at multiple, which is important when considering racing accidents.
-		</p> 
+		</p>
 
 	<!-- Source -->
 		<p class="Source">
 			Source: https://www.densignautobody.com/car-talk/2016/12/30/fiberglass-smc-carbon-fiber-and-beyond
 			<br>https://www.oppracing.com/pages/carbon_fiber_101/
-		</p> 
-	
-	<!-- Back Button -->	
-		<div class="buttonbox">
-			<br><br><br>
-			<a href="materials.html" class="button"> &nbsp&nbspBack&nbsp&nbsp </button> </a>&nbsp&nbsp&nbsp&nbsp
-	<!-- Home Button -->
-			<a href="index.html" class="button"> &nbsp&nbspHome&nbsp&nbsp </button> </a>
+		</p>
+
+		<!-- Back Button -->
+			<div class="buttonbox">
+				<br><br><br>
+				<a href="materials.html"> <button class="bbutton"> Back </button> </a>
+
+		<!-- Home Button -->
+				<a href="index.html"> <button class=" hbutton"> Home </button> </a>
+			</div>
 		</div>
 
 	</body>
