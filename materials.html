@@ -17,18 +17,27 @@
 			}
 			.button
 			{
-				padding: 30px 35px;
-				font-size: 24px;
+				padding: 30px 60px;
+				font-size: 30px;
 				text-align: center;
-				font-family: Optima, sans-serif;
-
 				outline: none;
 				color: #fff;
 				background-color: #c41d1d;
 				border: none;
 				border-radius: 15px;
 				box-shadow: 0 7px #999;
-				text-decoration: none;
+				position:absolute;
+				left:85%;
+				top:18%;
+
+			}
+
+			.button:hover {background-color: #c41d1d}
+			.button:active
+			{
+				background-color: #a11a1a;
+				box-shadow: 0 3px #666;
+				transform: translateY (4px);
 			}
 			.buttonsmall
 			{
@@ -115,10 +124,6 @@
 		</div>
 
 	<!-- Back Button -->
-		<div class="buttonbox">
-			<br><br><br><br><br><br><br><br>
-			<a href="index.html" class="button"> &nbsp&nbspBack&nbsp&nbsp </button> </a>
-		</div>
-
+						<a href="index.html"> <button class="button"> Back </button> </a>
 	</body>
 </html>
